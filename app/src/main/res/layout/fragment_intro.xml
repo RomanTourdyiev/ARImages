@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.IntroFragment">
+
+    <TextView
+        android:id="@+id/play_services_not_installed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/play_services_not_installed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/a_r_not_supported"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/a_r_not_supported"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/permissions_denied"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/permissions_denied"
+        android:textSize="24sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fragment_images_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/large"
+        android:layout_weight="1"
+        app:cardCornerRadius="@dimen/medium"
+        app:cardUseCompatPadding="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/add_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/large"
+            android:background="@android:color/white"
+            android:padding="@dimen/small"
+            android:text="@string/images_library_button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fragment_a_r_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/large"
+        android:layout_weight="1"
+        app:cardCornerRadius="@dimen/medium"
+        app:cardUseCompatPadding="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ar_illustration" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/large"
+            android:background="@android:color/white"
+            android:padding="@dimen/small"
+            android:text="@string/ar_experience"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ARImages</string>
+    <string name="a_r_not_supported">AR not supported</string>
+    <string name="permissions_denied">Permissions Denied</string>
+    <string name="play_services_not_installed">Play Services for AR not installed</string>
+    <string name="add_new">Add new</string>
+    <string name="fit_image_to_scan">Fit Image into screen</string>
+    <string name="images_library_button">Images Library</string>
+    <string name="ar_experience">AR experience</string>
+</resources>
